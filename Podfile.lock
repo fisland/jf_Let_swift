@@ -1,0 +1,58 @@
+PODS:
+  - BEMCheckBox (1.0.0)
+  - IQKeyboardManagerSwift (4.0.9)
+  - KMPlaceholderTextView (1.3.0)
+  - Networking (3.0.3)
+  - NVActivityIndicatorView (3.5)
+
+DEPENDENCIES:
+  - BEMCheckBox (from `https://github.com/Boris-Em/BEMCheckBox.git`, tag `1.4.0`)
+  - IQKeyboardManagerSwift (from `https://github.com/hackiftekhar/IQKeyboardManager.git`, tag `v4.0.9`)
+  - KMPlaceholderTextView (from `https://github.com/MoZhouqi/KMPlaceholderTextView.git`, tag `1.3.0`)
+  - Networking (from `https://github.com/3lvis/Networking.git`, tag `3.0.3`)
+  - NVActivityIndicatorView (from `https://github.com/ninjaprox/NVActivityIndicatorView.git`, tag `v3.5`)
+
+EXTERNAL SOURCES:
+  BEMCheckBox:
+    :git: https://github.com/Boris-Em/BEMCheckBox.git
+    :tag: 1.4.0
+  IQKeyboardManagerSwift:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+    :tag: v4.0.9
+  KMPlaceholderTextView:
+    :git: https://github.com/MoZhouqi/KMPlaceholderTextView.git
+    :tag: 1.3.0
+  Networking:
+    :git: https://github.com/3lvis/Networking.git
+    :tag: 3.0.3
+  NVActivityIndicatorView:
+    :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
+    :tag: v3.5
+
+CHECKOUT OPTIONS:
+  BEMCheckBox:
+    :git: https://github.com/Boris-Em/BEMCheckBox.git
+    :tag: 1.4.0
+  IQKeyboardManagerSwift:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+    :tag: v4.0.9
+  KMPlaceholderTextView:
+    :git: https://github.com/MoZhouqi/KMPlaceholderTextView.git
+    :tag: 1.3.0
+  Networking:
+    :git: https://github.com/3lvis/Networking.git
+    :tag: 3.0.3
+  NVActivityIndicatorView:
+    :git: https://github.com/ninjaprox/NVActivityIndicatorView.git
+    :tag: v3.5
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 64fc835f405f3e56473387cb59267921428433e2
+  IQKeyboardManagerSwift: c5dc746a1b74d6ac59d5b298ed1ef7b4b3b46420
+  KMPlaceholderTextView: 2bbcd19a273648a80a61e1e48f9743a24d8930e3
+  Networking: eee7ec7187f5ffaaaf1b9cf130e1d24a9ece2b31
+  NVActivityIndicatorView: 6e630842025c466a150dda9e1e054c05ea04e37d
+
+PODFILE CHECKSUM: 2c5a7826f1e4c90b6c0d0ac852822fa411fd0edd
+
+COCOAPODS: 1.1.1

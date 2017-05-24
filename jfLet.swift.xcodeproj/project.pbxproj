@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131A6ACB1ED3EF5B00B98F2B /* jfLet_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A6ACA1ED3EF5B00B98F2B /* jfLet_swiftTests.swift */; };
+		131A6AD61ED3EF5B00B98F2B /* jfLet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A6AD51ED3EF5B00B98F2B /* jfLet_swiftUITests.swift */; };
+		13CFAB031ED5D50400F8BEF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAAF81ED5D50400F8BEF8 /* AppDelegate.swift */; };
+		13CFAB041ED5D50400F8BEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAF91ED5D50400F8BEF8 /* Assets.xcassets */; };
+		13CFAB051ED5D50400F8BEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAFA1ED5D50400F8BEF8 /* LaunchScreen.storyboard */; };
+		13CFAB061ED5D50400F8BEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAFC1ED5D50400F8BEF8 /* Main.storyboard */; };
+		13CFAB071ED5D50400F8BEF8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAFE1ED5D50400F8BEF8 /* Info.plist */; };
+		13CFAB081ED5D50400F8BEF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAAFF1ED5D50400F8BEF8 /* ViewController.swift */; };
+		13CFAB0A1ED5D67700F8BEF8 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAB091ED5D67700F8BEF8 /* Signal.swift */; };
+		13CFAB0C1ED5D68100F8BEF8 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAB0B1ED5D68100F8BEF8 /* Async.swift */; };
+		13CFAB0E1ED5D6A100F8BEF8 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAB0D1ED5D6A100F8BEF8 /* TodoModel.swift */; };
+		37473575E4CBFC7A138F6636 /* Pods_jfLet_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E3A7E42E2EF77A4F684ABC /* Pods_jfLet_swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131A6AC71ED3EF5B00B98F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131A6AAA1ED3EF5B00B98F2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131A6AB11ED3EF5B00B98F2B;
+			remoteInfo = jfLet.swift;
+		};
+		131A6AD21ED3EF5B00B98F2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131A6AAA1ED3EF5B00B98F2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131A6AB11ED3EF5B00B98F2B;
+			remoteInfo = jfLet.swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131A6AB21ED3EF5B00B98F2B /* jfLet.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jfLet.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131A6AC61ED3EF5B00B98F2B /* jfLet.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jfLet.swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131A6ACA1ED3EF5B00B98F2B /* jfLet_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jfLet_swiftTests.swift; sourceTree = "<group>"; };
+		131A6ACC1ED3EF5B00B98F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131A6AD11ED3EF5B00B98F2B /* jfLet.swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jfLet.swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131A6AD51ED3EF5B00B98F2B /* jfLet_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jfLet_swiftUITests.swift; sourceTree = "<group>"; };
+		131A6AD71ED3EF5B00B98F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CFAAF81ED5D50400F8BEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13CFAAF91ED5D50400F8BEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CFAAFB1ED5D50400F8BEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13CFAAFD1ED5D50400F8BEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CFAAFE1ED5D50400F8BEF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CFAAFF1ED5D50400F8BEF8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13CFAB091ED5D67700F8BEF8 /* Signal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signal.swift; sourceTree = "<group>"; };
+		13CFAB0B1ED5D68100F8BEF8 /* Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		13CFAB0D1ED5D6A100F8BEF8 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		4467E1636D7A3FB83586441E /* Pods-jfLet.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jfLet.swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jfLet.swift/Pods-jfLet.swift.debug.xcconfig"; sourceTree = "<group>"; };
+		78E3A7E42E2EF77A4F684ABC /* Pods_jfLet_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jfLet_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9143A4D77AB9417C98DE7174 /* Pods-jfLet.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jfLet.swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-jfLet.swift/Pods-jfLet.swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131A6AAF1ED3EF5B00B98F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37473575E4CBFC7A138F6636 /* Pods_jfLet_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6AC31ED3EF5B00B98F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6ACE1ED3EF5B00B98F2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131A6AA91ED3EF5B00B98F2B = {
+			isa = PBXGroup;
+			children = (
+				131A6AB41ED3EF5B00B98F2B /* jfLet.swift */,
+				131A6AC91ED3EF5B00B98F2B /* jfLet.swiftTests */,
+				131A6AD41ED3EF5B00B98F2B /* jfLet.swiftUITests */,
+				131A6AB31ED3EF5B00B98F2B /* Products */,
+				23A140510F2F9EFAAD5A75F1 /* Pods */,
+				C6643C5AC00EA0DCFC9F2A5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		131A6AB31ED3EF5B00B98F2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131A6AB21ED3EF5B00B98F2B /* jfLet.swift.app */,
+				131A6AC61ED3EF5B00B98F2B /* jfLet.swiftTests.xctest */,
+				131A6AD11ED3EF5B00B98F2B /* jfLet.swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131A6AB41ED3EF5B00B98F2B /* jfLet.swift */ = {
+			isa = PBXGroup;
+			children = (
+				13CFAAF71ED5D50400F8BEF8 /* Config */,
+				13CFAB001ED5D50400F8BEF8 /* Core */,
+				13CFAB011ED5D50400F8BEF8 /* Home */,
+				13CFAB021ED5D50400F8BEF8 /* TodoModel */,
+			);
+			path = jfLet.swift;
+			sourceTree = "<group>";
+		};
+		131A6AC91ED3EF5B00B98F2B /* jfLet.swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				131A6ACA1ED3EF5B00B98F2B /* jfLet_swiftTests.swift */,
+				131A6ACC1ED3EF5B00B98F2B /* Info.plist */,
+			);
+			path = jfLet.swiftTests;
+			sourceTree = "<group>";
+		};
+		131A6AD41ED3EF5B00B98F2B /* jfLet.swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				131A6AD51ED3EF5B00B98F2B /* jfLet_swiftUITests.swift */,
+				131A6AD71ED3EF5B00B98F2B /* Info.plist */,
+			);
+			path = jfLet.swiftUITests;
+			sourceTree = "<group>";
+		};
+		13CFAAF71ED5D50400F8BEF8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				13CFAAFE1ED5D50400F8BEF8 /* Info.plist */,
+				13CFAAF81ED5D50400F8BEF8 /* AppDelegate.swift */,
+				13CFAAF91ED5D50400F8BEF8 /* Assets.xcassets */,
+				13CFAAFA1ED5D50400F8BEF8 /* LaunchScreen.storyboard */,
+				13CFAAFC1ED5D50400F8BEF8 /* Main.storyboard */,
+				13CFAAFF1ED5D50400F8BEF8 /* ViewController.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		13CFAB001ED5D50400F8BEF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				13CFAB091ED5D67700F8BEF8 /* Signal.swift */,
+				13CFAB0B1ED5D68100F8BEF8 /* Async.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		13CFAB011ED5D50400F8BEF8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		13CFAB021ED5D50400F8BEF8 /* TodoModel */ = {
+			isa = PBXGroup;
+			children = (
+				13CFAB0D1ED5D6A100F8BEF8 /* TodoModel.swift */,
+			);
+			path = TodoModel;
+			sourceTree = "<group>";
+		};
+		23A140510F2F9EFAAD5A75F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4467E1636D7A3FB83586441E /* Pods-jfLet.swift.debug.xcconfig */,
+				9143A4D77AB9417C98DE7174 /* Pods-jfLet.swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6643C5AC00EA0DCFC9F2A5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E3A7E42E2EF77A4F684ABC /* Pods_jfLet_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131A6AB11ED3EF5B00B98F2B /* jfLet.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131A6ADA1ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swift" */;
+			buildPhases = (
+				31005E3D6105F0B466C7EEDA /* [CP] Check Pods Manifest.lock */,
+				131A6AAE1ED3EF5B00B98F2B /* Sources */,
+				131A6AAF1ED3EF5B00B98F2B /* Frameworks */,
+				131A6AB01ED3EF5B00B98F2B /* Resources */,
+				6158A959C170A056A32B4034 /* [CP] Embed Pods Frameworks */,
+				51F5FC0CB42C94221B900995 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jfLet.swift;
+			productName = jfLet.swift;
+			productReference = 131A6AB21ED3EF5B00B98F2B /* jfLet.swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		131A6AC51ED3EF5B00B98F2B /* jfLet.swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131A6ADD1ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swiftTests" */;
+			buildPhases = (
+				131A6AC21ED3EF5B00B98F2B /* Sources */,
+				131A6AC31ED3EF5B00B98F2B /* Frameworks */,
+				131A6AC41ED3EF5B00B98F2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131A6AC81ED3EF5B00B98F2B /* PBXTargetDependency */,
+			);
+			name = jfLet.swiftTests;
+			productName = jfLet.swiftTests;
+			productReference = 131A6AC61ED3EF5B00B98F2B /* jfLet.swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		131A6AD01ED3EF5B00B98F2B /* jfLet.swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131A6AE01ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swiftUITests" */;
+			buildPhases = (
+				131A6ACD1ED3EF5B00B98F2B /* Sources */,
+				131A6ACE1ED3EF5B00B98F2B /* Frameworks */,
+				131A6ACF1ED3EF5B00B98F2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131A6AD31ED3EF5B00B98F2B /* PBXTargetDependency */,
+			);
+			name = jfLet.swiftUITests;
+			productName = jfLet.swiftUITests;
+			productReference = 131A6AD11ED3EF5B00B98F2B /* jfLet.swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131A6AAA1ED3EF5B00B98F2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fisland;
+				TargetAttributes = {
+					131A6AB11ED3EF5B00B98F2B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YRAFFJ7AHM;
+						ProvisioningStyle = Automatic;
+					};
+					131A6AC51ED3EF5B00B98F2B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 131A6AB11ED3EF5B00B98F2B;
+					};
+					131A6AD01ED3EF5B00B98F2B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 131A6AB11ED3EF5B00B98F2B;
+					};
+				};
+			};
+			buildConfigurationList = 131A6AAD1ED3EF5B00B98F2B /* Build configuration list for PBXProject "jfLet.swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131A6AA91ED3EF5B00B98F2B;
+			productRefGroup = 131A6AB31ED3EF5B00B98F2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131A6AB11ED3EF5B00B98F2B /* jfLet.swift */,
+				131A6AC51ED3EF5B00B98F2B /* jfLet.swiftTests */,
+				131A6AD01ED3EF5B00B98F2B /* jfLet.swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131A6AB01ED3EF5B00B98F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFAB071ED5D50400F8BEF8 /* Info.plist in Resources */,
+				13CFAB061ED5D50400F8BEF8 /* Main.storyboard in Resources */,
+				13CFAB041ED5D50400F8BEF8 /* Assets.xcassets in Resources */,
+				13CFAB051ED5D50400F8BEF8 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6AC41ED3EF5B00B98F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6ACF1ED3EF5B00B98F2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31005E3D6105F0B466C7EEDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51F5FC0CB42C94221B900995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jfLet.swift/Pods-jfLet.swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6158A959C170A056A32B4034 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jfLet.swift/Pods-jfLet.swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131A6AAE1ED3EF5B00B98F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFAB0C1ED5D68100F8BEF8 /* Async.swift in Sources */,
+				13CFAB081ED5D50400F8BEF8 /* ViewController.swift in Sources */,
+				13CFAB0A1ED5D67700F8BEF8 /* Signal.swift in Sources */,
+				13CFAB0E1ED5D6A100F8BEF8 /* TodoModel.swift in Sources */,
+				13CFAB031ED5D50400F8BEF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6AC21ED3EF5B00B98F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131A6ACB1ED3EF5B00B98F2B /* jfLet_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131A6ACD1ED3EF5B00B98F2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131A6AD61ED3EF5B00B98F2B /* jfLet_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131A6AC81ED3EF5B00B98F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131A6AB11ED3EF5B00B98F2B /* jfLet.swift */;
+			targetProxy = 131A6AC71ED3EF5B00B98F2B /* PBXContainerItemProxy */;
+		};
+		131A6AD31ED3EF5B00B98F2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131A6AB11ED3EF5B00B98F2B /* jfLet.swift */;
+			targetProxy = 131A6AD21ED3EF5B00B98F2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13CFAAFA1ED5D50400F8BEF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFAAFB1ED5D50400F8BEF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		13CFAAFC1ED5D50400F8BEF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFAAFD1ED5D50400F8BEF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131A6AD81ED3EF5B00B98F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		131A6AD91ED3EF5B00B98F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131A6ADB1ED3EF5B00B98F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4467E1636D7A3FB83586441E /* Pods-jfLet.swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRAFFJ7AHM;
+				INFOPLIST_FILE = jfLet.swift/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		131A6ADC1ED3EF5B00B98F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9143A4D77AB9417C98DE7174 /* Pods-jfLet.swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YRAFFJ7AHM;
+				INFOPLIST_FILE = jfLet.swift/Config/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		131A6ADE1ED3EF5B00B98F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jfLet.swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jfLet.swift.app/jfLet.swift";
+			};
+			name = Debug;
+		};
+		131A6ADF1ED3EF5B00B98F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jfLet.swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jfLet.swift.app/jfLet.swift";
+			};
+			name = Release;
+		};
+		131A6AE11ED3EF5B00B98F2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = jfLet.swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jfLet.swift;
+			};
+			name = Debug;
+		};
+		131A6AE21ED3EF5B00B98F2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = jfLet.swiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fislandZhang.jfLet-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jfLet.swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131A6AAD1ED3EF5B00B98F2B /* Build configuration list for PBXProject "jfLet.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A6AD81ED3EF5B00B98F2B /* Debug */,
+				131A6AD91ED3EF5B00B98F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131A6ADA1ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A6ADB1ED3EF5B00B98F2B /* Debug */,
+				131A6ADC1ED3EF5B00B98F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131A6ADD1ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A6ADE1ED3EF5B00B98F2B /* Debug */,
+				131A6ADF1ED3EF5B00B98F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131A6AE01ED3EF5B00B98F2B /* Build configuration list for PBXNativeTarget "jfLet.swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131A6AE11ED3EF5B00B98F2B /* Debug */,
+				131A6AE21ED3EF5B00B98F2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131A6AAA1ED3EF5B00B98F2B /* Project object */;
+}
