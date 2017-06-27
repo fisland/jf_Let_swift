@@ -9,5 +9,8 @@
 import UIKit
 
 class TodoModel{
-
+    
+}
+struct TodoModelItem {
+    
 }

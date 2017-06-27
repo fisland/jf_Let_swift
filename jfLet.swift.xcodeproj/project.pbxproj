@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1317879D1ED9E6060087E3F0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1317879C1ED9E6060087E3F0 /* HomeViewModel.swift */; };
 		131A6ACB1ED3EF5B00B98F2B /* jfLet_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A6ACA1ED3EF5B00B98F2B /* jfLet_swiftTests.swift */; };
 		131A6AD61ED3EF5B00B98F2B /* jfLet_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A6AD51ED3EF5B00B98F2B /* jfLet_swiftUITests.swift */; };
+		132E3ABF1EDBEE4400C9B357 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E3ABE1EDBEE4400C9B357 /* HomeViewController.swift */; };
+		132E3AC11EDBEE5F00C9B357 /* HomeTodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132E3AC01EDBEE5F00C9B357 /* HomeTodoCell.swift */; };
 		13CFAB031ED5D50400F8BEF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAAF81ED5D50400F8BEF8 /* AppDelegate.swift */; };
 		13CFAB041ED5D50400F8BEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAF91ED5D50400F8BEF8 /* Assets.xcassets */; };
 		13CFAB051ED5D50400F8BEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFAAFA1ED5D50400F8BEF8 /* LaunchScreen.storyboard */; };
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1317879C1ED9E6060087E3F0 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		131A6AB21ED3EF5B00B98F2B /* jfLet.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jfLet.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		131A6AC61ED3EF5B00B98F2B /* jfLet.swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jfLet.swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131A6ACA1ED3EF5B00B98F2B /* jfLet_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jfLet_swiftTests.swift; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		131A6AD11ED3EF5B00B98F2B /* jfLet.swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jfLet.swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		131A6AD51ED3EF5B00B98F2B /* jfLet_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jfLet_swiftUITests.swift; sourceTree = "<group>"; };
 		131A6AD71ED3EF5B00B98F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132E3ABE1EDBEE4400C9B357 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		132E3AC01EDBEE5F00C9B357 /* HomeTodoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTodoCell.swift; sourceTree = "<group>"; };
 		13CFAAF81ED5D50400F8BEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13CFAAF91ED5D50400F8BEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13CFAAFB1ED5D50400F8BEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -162,6 +168,9 @@
 		13CFAB011ED5D50400F8BEF8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1317879C1ED9E6060087E3F0 /* HomeViewModel.swift */,
+				132E3ABE1EDBEE4400C9B357 /* HomeViewController.swift */,
+				132E3AC01EDBEE5F00C9B357 /* HomeTodoCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -379,9 +388,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CFAB0C1ED5D68100F8BEF8 /* Async.swift in Sources */,
+				1317879D1ED9E6060087E3F0 /* HomeViewModel.swift in Sources */,
 				13CFAB081ED5D50400F8BEF8 /* ViewController.swift in Sources */,
 				13CFAB0A1ED5D67700F8BEF8 /* Signal.swift in Sources */,
+				132E3AC11EDBEE5F00C9B357 /* HomeTodoCell.swift in Sources */,
 				13CFAB0E1ED5D6A100F8BEF8 /* TodoModel.swift in Sources */,
+				132E3ABF1EDBEE4400C9B357 /* HomeViewController.swift in Sources */,
 				13CFAB031ED5D50400F8BEF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
